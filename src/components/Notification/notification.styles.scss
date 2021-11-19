@@ -1,0 +1,14 @@
+.notification {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: auto;
+  z-index: 2;
+  text-align: center;
+  &.hide {
+    display: none;
+  }
+  &.show {
+    display: block;
+  }
+}

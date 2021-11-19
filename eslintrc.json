@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": "off",
+    "semi": "off",
+    "no-unused-vars":"warn",
+    "array-callback-return":"off",
+    "comma-dangle":"off",
+    "no-use-before-define":"off",
+    "arrow-body-style":"off",
+    "import/no-named-as-default":"off",
+    "import/no-named-as-default-member":"off",
+    "no-lonely-if":"off",
+    "class-methods-use-this":"off",
+    "react/jsx-fragments":"off",
+    "react/jsx-indent":"off",
+    "indent":"off",
+    "max-classes-per-file": "off",
+    "import/no-extraneous-dependencies":"off",
+    "no-param-reassign":"off",
+    "prefer-destructuring":"off",
+    "import/prefer-default-export":"off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "no-underscore-dangle":"off",
+    "lines-between-class-members":"off",
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-expressions": "off",
+    "no-plusplus":"off"
+  }
+}
